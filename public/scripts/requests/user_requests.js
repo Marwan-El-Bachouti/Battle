@@ -131,3 +131,20 @@ async function update_current_playing(id,user_id) {
     }
 } 
 
+//Test By Marwan and bruno
+//async function get_enemy_info_by_game_id (user_id) {
+  //  try {
+    //    const response = await fetch(`/api/users/enemy/${id}`);
+      //  if (response.status == 200) {
+       //    var user = await response.json();
+         //  return user;
+        //} else {
+            // Treat errors like 404 here
+          //  console.log(response);
+        //}
+    //} catch (err) {
+        // Treat 500 errors here    
+      //  console.log(err);
+    //}
+//}
+

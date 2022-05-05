@@ -108,6 +108,25 @@ module.exports.update_current_playing_by_game_id = async function (user_id,game_
   }
 }
 
+//{ Test by Marwan and bruno
+//  module.exports.get_enemy_info = async function (user_id) {
+
+//  try {
+  //      let sql = `select user_id from users where user_id != $1`
+    //    let result = await pool.query(sql, [user_id]);
+      //  if (result.rows.length > 0) {
+          //let user = result.rows;
+        //  return { status: 200, result: user };
+      //} else {
+        //  return { status: 404, result: { msg: "No user with that id" } };
+     // }
+  //} catch (err) {
+    //console.log(err);
+    //return { status: 500, result: err };
+  //}
+  //}
+
+   
 
 
 
