@@ -79,45 +79,44 @@ async function key_troops(its_my_turn,troop_array,user_id){
                 if (troop_array[i].selected) {
                     if (troop_array[i].movement > 0) {
                         switch (key) {
-<<<<<<< HEAD
+
                             case 'd':
                             case 'D':
                                 troop_array[i].y += 1;
-=======
+
                             case 'w':
                             case 'W':
                                 troop_array[i].x -= 1;
->>>>>>> 9e439f202b850bb0c8d8f0072a331e67b5cf9493
+
                                 troop_array[i].movement -= 1
                                 await update_troops_id(user_id, troop_array[i].user_trp_id, troop_array[i].x, troop_array[i].y, troop_array[i].health, troop_array[i].movement);
                                 break;
                             case 'a':
                             case 'A':
                                 troop_array[i].y -= 1;
-<<<<<<< HEAD
+
                                 troop_array[i].movement -= 1
                                 await update_troops_id(user_id, troop_array[i].user_trp_id, troop_array[i].x, troop_array[i].y, troop_array[i].health, troop_array[i].movement);
                                 break;
                             case 'w':
                             case 'W':
                                 troop_array[i].x -= 1;
-=======
->>>>>>> 9e439f202b850bb0c8d8f0072a331e67b5cf9493
+
+
                                 troop_array[i].movement -= 1
                                 await update_troops_id(user_id, troop_array[i].user_trp_id, troop_array[i].x, troop_array[i].y, troop_array[i].health, troop_array[i].movement);
                                 break;    
                             case 's':
                             case 'S':
                                 troop_array[i].x += 1;
-<<<<<<< HEAD
-=======
+
                                 troop_array[i].movement -= 1
                                 await update_troops_id(user_id, troop_array[i].user_trp_id, troop_array[i].x, troop_array[i].y, troop_array[i].health, troop_array[i].movement);
                                 break;
                             case 'd':
                             case 'D':
                                 troop_array[i].y += 1;
->>>>>>> 9e439f202b850bb0c8d8f0072a331e67b5cf9493
+
                                 troop_array[i].movement -= 1
                                 await update_troops_id(user_id, troop_array[i].user_trp_id, troop_array[i].x, troop_array[i].y, troop_array[i].health, troop_array[i].movement);
                                 break;
