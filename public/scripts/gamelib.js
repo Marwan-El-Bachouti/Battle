@@ -87,6 +87,8 @@ window.onload = async () => {
 }
 
 async function setup() {
+    troop_setup()
+    building_setup()
     let cnv = createCanvas(board_size*tilesize, board_size*tilesize);
     cnv.position(700, 30);
     //tilesize = width / board_size;
